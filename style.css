@@ -1,7 +1,13 @@
 body{
-    background-color: deeppink;
+    background-color: red;
     color: beige;
 }
 a{
-    color: grey;
+    color: black;
+}
+header{
+    border: 2px solid orange;
+}
+main{
+    background-color: yellowgreen;
 }
