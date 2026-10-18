@@ -1,13 +1,86 @@
+:root{
+font-size: 14px; 
+/* best jest 17px, najczestrze 14 */
+}
+
 body{
     background-color: red;
     color: beige;
 }
 a{
     color: black;
+   text-decoration: none;
 }
 header{
-    border: 2px solid orange;
+    border: 2px solid orange !important;
+}
+header h1{
+   font-family: "Squada One", sans-serif;
+}
+header{
+    border: 2px solid blue;
+}
+header p{
+    color: green; /* wszytsie p beda mialy kolor */
 }
 main{
     background-color: yellowgreen;
+    font-size: 14px;
 }
+
+.paragraf_wiekszy{
+     font-size: 1.69em;
+}
+/* rem bierze wielkosc z root */
+
+#nnn{
+     font-size: 20px;
+}
+
+/* mozna napisac w "<style>" w html swoj styl, ma to pierwszenstwo nad css
+ jednak w css mozna dopisac important, powinnismy style robic w css. 
+ mozna tez dodac do samego paragrafu czy nagłówka, to ma ierwszenstwo nad style, ale ustepuje important */
+
+ h1 span {
+    background-color: greenyellow;
+       color:tomato
+    }  
+
+ h2 ~ article span {
+    color: rgb(0, 255, 136);
+ }
+
+ .article-image {
+    display: block;
+    width: 100%;
+    max-width: 130px;
+    height: auto;
+    margin-bottom: 1rem;
+ }
+
+ .left{
+ text-align: left;
+ text-transform: lowercase;
+ }
+ .right{
+    text-align: right;
+ }
+ .centre{
+    text-align: center;
+ }
+ .justify{
+    text-align: justify;
+    text-transform: uppercase;
+ }
+
+.naglowek {
+    text-shadow: 2px 2px 4px darkred;
+}
+
+
+.isometra-regular {
+  font-family: "Isometra", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
